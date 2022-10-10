@@ -99,6 +99,8 @@ The SLB feature is a Cisco IOS-based solution that provides IP server load balan
 2. The virtual server IP address is configured as a loopback address, or secondary IP address, on each of the real servers.
 3. When a client initiates a connection to the virtual server, the IOS SLB function chooses a real server for the connection based on a configured load-balancing algorithm. 
 
+![slb](./images/slb.webp)
+
 ## Public Server farm configuration
 
 ```
@@ -164,3 +166,4 @@ ip slb vserver RESTRICTED_HTTP
 ### sources:
 
 - https://www.computernetworkingnotes.com/ccna-study-guide/hsrp-configuration-and-load-balancing-explained.html
+- https://www.cisco.com/c/en/us/td/docs/ios/slb/configuration/guide/slb_cg_book/slb_cg_xmp.html
