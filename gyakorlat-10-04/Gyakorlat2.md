@@ -58,7 +58,7 @@ Run the container
 
  Connect to container using DBeaver:
 
- ![DBeaver connection](./images/connection.png)
+ ![DBeaver connection](../images/connection.png)
 
  ## dokcer-compose
 
@@ -98,7 +98,7 @@ Start the services:
 On the port 8080 `adminer` is listening.
 We can connect to the db with `adminer`:
 
-![Adminer connectoin](./images/adminer.png)
+![Adminer connectoin](../images/adminer.png)
 
 ### Sources:
 
