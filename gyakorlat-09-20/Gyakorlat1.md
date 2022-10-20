@@ -2,7 +2,7 @@
 
 HSRP (Hot Standby Router Protocol) is a Cisco proprietary protocol. It is used to dynamically manage multiple default gateway routers. It creates a group and adds all available gateway routers to that group. Afterward, it selects two routers: one as the main (or active) router and the other as the standby (or passive) router.
 
-![setup](./images/setup.png)
+![setup](../images/setup.png)
 
 ## R1 config
 
@@ -99,7 +99,7 @@ The SLB feature is a Cisco IOS-based solution that provides IP server load balan
 2. The virtual server IP address is configured as a loopback address, or secondary IP address, on each of the real servers.
 3. When a client initiates a connection to the virtual server, the IOS SLB function chooses a real server for the connection based on a configured load-balancing algorithm. 
 
-![slb](./images/slb.webp)
+![slb](../images/slb.webp)
 
 ## Public Server farm configuration
 
